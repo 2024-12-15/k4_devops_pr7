@@ -1,4 +1,4 @@
 { pkgs, mkShell }:
 mkShell {
-  packages = with pkgs; [ coreutils ];
+  packages = with pkgs; [ clang-tools ];
 }
