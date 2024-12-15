@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int
-main(int argc, char *argv[])
+main()
   {
     printf("testing...\n");
     return 0;
