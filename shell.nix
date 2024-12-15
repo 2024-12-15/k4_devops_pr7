@@ -1,4 +1,4 @@
-{ mkShell }:
+{ pkgs, mkShell }:
 mkShell {
-  packages = [ ];
+  packages = with pkgs; [ coreutils ];
 }
